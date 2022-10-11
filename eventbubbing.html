@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>BUBBING EVENT IN JAVA SCRIPT</title>
+</head>
+<body>
+<h2>bubbing event in javascript</h2>
+<div id="parent">
+<button>
+<h2> parent</h2>
+</button>
+<p>child</p>
+</button>
+</div>
+<script>
+document.getElementById("child").addEventlistener("click",Function(){
+alert("you clicked the child element!");}
+flase);
+document.getElementById("parent").addEventListener("click",Function(){
+alert("you clicked the parent element!");}flase);
+</script>
+</body>
+</html>
